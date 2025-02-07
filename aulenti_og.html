@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Clean Blog - Start Bootstrap Theme</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    rel="stylesheet" type="text/css" />
+   <!-- Mirador -->
+   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+   <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link rel="metadata" type="application/xml" href="serializzazione_xml.xml"/>
+</head>
+
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html">ArtView</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-lg-3 py-3 py-lg-4" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Interviews
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="aulenti_og.html">Aulenti</a></li>
+              <li><a class="dropdown-item" href="callas_og.html">Callas</a></li>
+              <li><a class="dropdown-item" href="pasolini_og.html">Pasolini</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header-->
+  <header class="masthead"
+    style="background-image: url('assets/img/designer-gae-aulenti_61652474-3d74-472a-96ce-e9a4c4cfcc56.webp')">
+    <div class="container position-relative px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div class="page-heading">
+            <h1>Interview with Gae Aulenti</h1>
+            <span class="subheading">Interviewed by Dacia Maraini</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content-->
+  <main class="mb-4">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div>
+            <div class="container mt-5">
+              <div class="sidebar">
+                <div class="button-container">
+                  <button class="btn theme-btn" data-theme-btn="#themepolitics" id="politicsBtn">Politics</button>
+                  <button class="btn theme-btn" data-theme-btn="#themereligion" id="religionBtn">Religion</button>
+                  <button class="btn theme-btn" data-theme-btn="#themesocio_economic_status"
+                    id="socioEconomicBtn">Socio-economic status</button>
+                  <button class="btn theme-btn" data-theme-btn="#themelove" id="loveBtn">Love</button>
+                  <button class="btn theme-btn" data-theme-btn="#themechildhood" id="childhoodBtn">Childhood</button>
+                </div>
+              </div>
+              <div>
+              <div id="MultimediaModal" class="multimedia-modal">
+                <div id='ModalContent' class="modal-content">
+                  <button class="modal-close-button" onclick="closeMultimediaModal()">&times;</button>
+                  <div id="media-viewer"></div>
+                </div>
+              </div>
+              <div>
+
+                <p class="question">La tua famiglia di dov'è?</p>
+
+                <p class="answer">Calabrese.</p>
+
+                <p class="question" data-theme="#themesocio_economic_status">È una famiglia ricca o povera?</p>
+
+                <p class="answer" data-theme="#themesocio_economic_status">Benestante. La nostra è una famiglia di magistrati, di avvocati, di medici e vescovi.</p>
+                <p class="blur">Tuo padre è vivo? Che mestiere fa?</p>
+                <p class="blur">No, è morto. Faceva il commercialista. Era un esperto di problemi finanziari. Da giovane abitava a Trani. Poi si è trasferito a Venezia e poi in Piemonte.</p>
+                <p class="blur">Come te lo ricordi tuo padre da bambina?</p>
+                <p class="blur">Bellissimo, severo.</p>
+                <p class="blur">Bello come? Me lo descrivi?</p>
+                <p class="blur">Alto, bruno, con gli occhi chiari. Una bellezza un po' anni Trenta. Assomigliava a Tyrone Power. Aveva una faccia mobile, viva, gli occhi brillanti.</p>
+                <p class="blur">Di carattere com'era?</p>
+                <p class="blur">Dolcissimo. Buono. Burbero. Ironico. Un sentimentale che si metteva la maschera della razionalità.</p>
+                <p class="blur">Era affettuoso verso di te?</p>
+                <p class="blur">Era affettuoso, ma sentiva il dovere di educarci con una mano molto pesante. Era esigente e severo.</p>
+                <p class="blur">Come ti dimostrava il suo affetto?</p>
+                <p class="blur">La sua tenerezza era chiusa in gesti rituali. Il bacio della sera, l'abbraccio del mattino. Ma niente di spontaneo, di improvvisato. La spontaneità era repressa a casa nostra.</p>
+                <p class="blur">E questa cerimoniosità non ti dava fastidio?</p>
+                <p class="blur">No, perché sapevo che nascondeva timidezza e non freddezza.</p>
+                <p class="blur">E alla repressione come reagivi? Ti ribellavi o subivi?</p>
+                <p class="blur">Cercavo di capire.</p>
+                <p class="blur">Comunque i rapporti fra te bambina e tuo padre come li consideri: buoni o cattivi?</p>
+                <p class="blur">Buoni. Perché era un uomo gentile e allegro nonostante le sue manie. Era sempre di buon umore, salvo delle rabbie improvvise e vulcaniche.</p>
+                <p class="blur">E perché si arrabbiava?</p>
+                <p class="blur">Per delle stupidaggini. Una volta per esempio mi ha incontrata per strada con una mia amica. Ha visto che mi ero messa un po' di rimmel verde sugli occhi. Lì per lì non ha detto niente. Ma quella sera, a casa, si è infuriato: mi ha sgridata urlando e mi ha presa a schiaffi.</p>
+                <p class="blur">Quanti anni avevi?</p>
+                <p class="blur">Sedici.</p>
+                <p class="blur">E perché, secondo te, gli dava tanto fastidio che ti mettessi il verde sugli occhi?</p>
+                <p class="blur">Tutto quello che era femminile lo irritava. Avrebbe voluto che io fossi un ragazzo. Mi comperava delle scarpe da uomo, dei calzettoni da uomo.</p>
+                <p class="blur">E tu come le prendevi queste stranezze di tuo padre?</p>
+                <p class="blur">Un po' mi seccavo. Tanto più che lui, per sé, ci teneva molto all'eleganza, portava camicie di seta, vestiti di lino. Ma non me la prendevo tanto perché sapevo che erano piccole tempeste che sarebbero passate subito.</p>
+                <p class="blur">E tua madre? Come te la ricordi da bambina?</p>
+                <p class="blur">Era bella. Aveva gli zigomi sporgenti, il naso sottile, la pelle tesa, i capelli castani. Nell'insieme era piacevole, aveva qualcosa di forte e di tenero che attirava.</p>
+                <p class="blur">Di carattere com'era? Vive ancora tua madre?</p>
+                <p class="blur">Dolcissima. E intelligentissima. Capisce tutto. Anche adesso capisce le cose più lontane da lei.</p>
+                <p class="blur">Con te come si comportava?</p>
+                <p class="blur">Con tenerezza.</p>
+                <p class="blur">Fra di loro andavano d'accordo tuo padre e tua madre?</p>
+                <p class="blur">Molto. Si sono sempre amati molto. Anche se si prendevano continuamente in giro e spesso litigavano per delle sciocchezze. C'era molta ironia nei loro rapporti.</p>
+                <p class="blur">Chi era il più forte fra i due?</p>
+                <p class="blur">Apparentemente mio padre. Lui comandava e mia madre eseguiva. Ma in fondo era lei che lo guidava.</p>
+                <p class="blur">Come è morto tuo padre?</p>
+                <p class="blur">In un incidente di macchina. Aveva la passione della macchina. Gli piacevano le auto da corsa, le motociclette. Partiva come una freccia con mia madre aggrappata dietro. Lei odiava le moto. Ma ci andava per fare piacere a lui. Gli circondava la vita con le braccia e si lasciava portare, le labbra strette, le guance pallide, i capelli sbattuti dal vento.</p>
+                <p class="question" data-theme="#themechildhood">Uscivano spesso insieme?</p>
+                <p class="answer" data-theme="#themechildhood">No, raramente.</p>
+                <p class="answer" data-theme="#themechildhood">Mio padre era casalingo. Amava fare sempre le stesse cose agli stessi orari. La sera, dopo cena, mia madre, mia sorella e io ci mettevamo sedute in salotto e lui leggeva ad alta voce <span data-ref="wd:Q3435337" data-multimedia="peterpan.manifest.json">Peter Pan</span>, <span data-ref="wd:Q92640" data-multimedia="alice.manifest.json">Alice nel paese delle meraviglie</span>, <span data-ref="wd:Q183565" data-multimedia="leghe.jpg">Ventimila leghe sotto i mari</span>.</p>
+
+                <p class="question" data-theme="#themechildhood">Fino a quando sono durate queste letture familiari?</p>
+
+                <p class="answer" data-theme="#themechildhood">Fino a quando ho avuto otto anni.</p>
+
+                <p class="question" data-theme="#themechildhood">E dopo?</p>
+
+                <p class="answer" data-theme="#themechildhood">Dopo ho cominciato a leggere per conto mio.</p>
+
+                <p class="question" data-theme="#themechildhood">Leggevi molto da ragazza?</p>
+
+                <p class="answer" data-theme="#themechildhood">La lettura era una passione divorante per me. Leggevo sempre, qualche volta di nascosto, chiusa in bagno, sotto le coperte, alla luce di una lampadina tascabile, dappertutto.</p>
+
+                <p class="question" data-theme="#themechildhood">Perché di nascosto?</p>
+
+                <p class="answer" data-theme="#themechildhood">Perché leggevo dei libri da grandi, che mi erano proibiti.</p>
+                <p class="blur">E con tua sorella andavi d'accordo?</p>
+                <p class="blur">Sì molto. Mia sorella da piccola è sempre stata malaticcia. E io la proteggevo. Però quei tre anni di differenza bastavano per farci fare due vite diverse. Lei era in rapporti più intimi coi genitori: non si staccava mai da loro. Io ero più indipendente.</p>
+                <p class="blur">E a scuola come andavi?</p>
+                <p class="blur">Bene. Ho faticato un po' verso i quindici anni. Ma poi è andato tutto bene, senza successi clamorosi ma senza neanche troppe difficoltà.</p>
+                <p class="question" data-theme="#themereligion">Erano molto religiosi in famiglia?</p>
+
+                <p class="answer" data-theme="#themereligion">Di destino eravamo laici, ma con dei rituali sociali da credenti. Fino ai sedici anni sono andata anch'io a messa tutte le domeniche, con loro. Era una abitudine, un dovere, una tradizione da rispettare e basta.</p>
+
+                <p class="question" data-theme="#themereligion">E a sedici anni cos'è successo?</p>
+
+                <p class="answer" data-theme="#themereligion">Un giorno, una domenica, ho detto: io non vengo a messa. E non ci sono più andata.</p>
+
+                <p class="question" data-theme="#themereligion">E come mai hai deciso di non andarci più?</p>
+
+                <p class="answer" data-theme="#themereligion">Così, mi ero stufata. Non riuscivo a credere in Dio. Allora perché andare in chiesa? Tanto un giorno o l'altro la scienza scoprirà se veramente c'è o non c'è questo Dio. Pensavo così. Avevo molta fiducia nella scienza.</p>
+                <p class="blur">I tuoi come l'hanno presa?</p>
+                <p class="blur">Non hanno detto niente.</p>
+                <p class="question" data-theme="#themepolitics">E di politica si parlava mai in famiglia?</p>
+
+                <p class="answer" data-theme="#themepolitics">Poco. Le opinioni dei miei erano legate al buon senso. Nei riguardi del fascismo per esempio non c'era partecipazione da parte loro, ma nemmeno polemica attiva. Erano per il quieto vivere.</p>
+
+                <p class="question" data-theme="#themepolitics">E per te il fascismo cos'era?</p>
+
+                <p class="answer" data-theme="#themepolitics">Prima non capivo niente. Accettavo le cose perché c'erano, senza chiedermi il perché. Poi, a furia di leggere libri, ho cominciato a sospettare che c'erano altri mondi diversi da quello in cui stavo vivendo, altre realtà, più vive, più interessanti. Ho cominciato a intuire che il fascismo era una cosa volgare e sinistra. Poi è scoppiata la guerra. È venuto fuori l'antisemitismo, più sfacciato e più odioso che mai.</p>
+
+                <p class="question" data-theme="#themepolitics">Che esperienze hai avuto dell'antisemitismo?</p>
+
+                <p class="answer" data-theme="#themepolitics">Eravamo cinque amiche: Paola, Dindi, Silvia, Bona e io. Stavamo sempre insieme. Facevamo tutto insieme. Andavamo in bicicletta insieme, studiavamo assieme, leggevamo gli stessi libri, amavamo le stesse cose. Eravamo sui sedici anni. Poi, improvvisamente, la sorella di Dindi è stata presa e portata ad Auschwitz. Dindi è dovuta scappare in Svizzera se no prendevano anche lei. Per noi è stato un colpo. Siamo state costrette a occuparci di politica, una cosa che fino ad allora era sembrata così lontana da noi. Avevamo creduto che il fascismo non ci riguardasse poi tanto. Era una cosa brutta, ma lontana. Dopo quel fatto abbiamo cominciato a fare della politica attiva.</p>
+
+                <p class="question" data-theme="#themepolitics">Cioè?</p>
+
+                <p class="answer" data-theme="#themepolitics">Andavamo ad attaccare i manifesti contro i tedeschi, di notte. Partecipavamo alle discussioni, alle riunioni clandestine con i nostri amici studenti. Era un momento grave. Molti ragazzi partivano per la montagna. Uno dei nostri amici, uno dei più giovani, il fratello di Bona è partito e dopo pochi giorni abbiamo saputo che era morto. È stato il mio primo dolore.</p>
+                <p class="blur">Erano anche finite le grandi estati dai nonni, in Calabria.</p>
+                <p class="blur">Come erano queste estati?</p>
+                <p class="blur">Mangiavamo lo yogurt fatto in casa con dentro delle gocce di latte di fico. Ne mangiavamo moltissimo. Facevamo la caccia alle vipere. Andavamo a prendere l'acqua con gli otri sulla testa. È stato un periodo felice per me. Ero affascinata da mia nonna. Nonna Emilia. Mi faceva pensare alla panna montata: aveva la pancia molle, bianchissima, i brillanti alle dita. Era allegra e dolce. Poi è finita la guerra e io ho detto a mio padre che volevo andare in Cecoslovacchia.</p>
+                <p class="blur">E lui?</p>
+                <p class="blur">Ha detto di no.</p>
+                <p class="blur">E tu?</p>
+                <p class="blur">Mi sono chiusa in casa. Per giorni e giorni non sono uscita, non ho parlato con nessuno. Poi una mattina mi sono alzata e ho detto che mi sarei trasferita a Firenze per fare il liceo artistico.</p>
+                <p class="question">E loro?</p>
+
+                <p class="answer">Hanno accettato. Così sono partita per <span data-ref="wd:Q2044">Firenze</span>. Il patto era che dovevo abitare dalle suore, al collegio di Santa Croce. Da lì ogni mattina andavo al liceo artistico.</p>
+
+                <p class="question" data-theme="#themepolitics">Quanto ci sei rimasta a <span data-ref="wd:Q2044">Firenze</span>?</p>
+
+                <p class="answer" data-theme="#themepolitics">Un anno. Poi sono tornata a <span data-ref="wd:Q490">Milano</span>. Mi sono iscritta al Politecnico. Ho conosciuto molti amici del Pci e ho preso la tessera anch'io. Intanto scrivevo su un giornale partigiano di Biella. Mio padre quando ha saputo che ero diventata comunista, si è arrabbiato. Ma non poteva dire niente perché ero andata via di casa. Mi rimproverava, ma mi rispettava.</p>
+
+                <p class="question" data-theme="#themelove">E l'amore? Sei stata precoce in amore?</p>
+
+                <p class="answer" data-theme="#themelove">Fino a diciotto anni niente. A diciotto anni ho avuto un grande amore. È durato cinque anni. Studiava medicina. Aveva la passione della musica, <span data-ref="wd:Q255" data-multimedia="beethoven.manifest.json">Beethoven</span>, <span data-ref="wd:Q1339" data-multimedia="bach.manifest.json">Bach</span>, <span data-ref="wd:Q1511" data-multimedia="wagner.manifest.json">Wagner</span>. Andavamo insieme a sciare sopra Biella, al Mucrone. Andavamo su con le pelli di foca, camminavamo per ore e ore arrancando, urlando, ridendo. Era bello. Poi è finito.</p>
+
+                <p class="question" data-theme="#themelove">E perché?</p>
+
+                <p class="answer" data-theme="#themelove">Era uno scocciatore.</p>
+
+                <p class="question" data-theme="#themelove">Cioè?</p>
+
+                <p class="answer" data-theme="#themelove">Era molto preso da <span data-ref="wd:Q9358" data-multimedia="nietzche.jpg">Nietzsche</span>, dall'idea del superuomo. Mi idealizzava, mi faceva diventare una divinità. Era un rompiballe. Ma non avevo il coraggio di lasciarlo. Un giorno che eravamo seduti su una panchina ai giardini, mi sono detta: o ora o mai più. E così mi sono voltata verso di lui e tutto di un fiato gli ho detto che basta, che era finito. Appena l'ho detto mi sono sentita diventare leggera come una piuma.</p>
+
+                <p class="question" data-theme="#themepolitics">E poi?</p>
+
+                <p class="answer" data-theme="#themepolitics">Fra l'altro io mi stavo interessando sempre più di politica e a lui invece la politica non piaceva. La considerava come una cosa troppo materiale. Lui era per le speculazioni teoriche. Sono stata contenta di essermene liberata. Per qualche tempo non ho più pensato all'amore. Andavo coi compagni di università a fare le inchieste nelle periferie. Andavo a parlare con gli operai nelle fabbriche. Facevo vita di partito.</p>
+
+                <p class="question" data-theme="#themepolitics">Sei ancora iscritta al Pci?</p>
+
+                <p class="answer" data-theme="#themepolitics">Sono uscita nel '52 quando ho saputo dell'antisemitismo di <span data-ref="wd:Q855" data-multimedia="stalin.jpg">Stalin</span>.</p>
+                <p class="blur">Il fatto di essere una donna ti ha mai messo in situazioni di difficoltà nel tuo lavoro di architetto?</p>
+                <p class="blur">Non ho mai sentito di essere discriminata come donna. Qualche volta al telefono dicono: «Vorrei parlare con l'architetto Aulenti». Allora dico: «Sono io». Sento una esitazione dall'altra parte del filo e poi la voce che insiste: «Scusi, ma io vorrei parlare con l'architetto Aulenti, non con la moglie». Questo però mi fa solo ridere.</p>
+                <p class="blur">Non ti sei mai sentita vittima del razzismo sessuale insomma?</p>
+                <p class="blur">No.</p>
+                <p class="blur">Credi che sia una particolare fortuna che è toccata a te o credi che sia una condizione generale di tutte le donne che lavorano?</p>
+                <p class="blur">Credo che se una donna fa bene il suo lavoro nessuno le rinfaccerà di essere donna.</p>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  </main>
+  <!-- Footer-->
+  <footer class="border-top">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <ul class="list-inline text-center">
+
+            <li class="list-inline-item">
+              <a href="https://github.com/GaiaOrtona/Tesi">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div class="small text-center text-muted fst-italic">Copyright &copy; ArtView 2025</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- File JS bottoni -->
+  <script src="js/buttons.js"></script>
+  <script src="js/multimedia.js"></script>
+  <script src="js/metadata.js"></script>
+</body>
+
+</html>
