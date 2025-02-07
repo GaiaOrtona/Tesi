@@ -1,0 +1,96 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://ids.si.edu/ids/manifest/SAAM-1982.1.1_1",
+    "@type": "sc:Manifest",
+    "label": "SAAM-1982.1.1_1",
+    "logo": "https://ids.si.edu/SI_Sunburst_40px.jpg",
+    "metadata": [
+      {
+        "label": "Title",
+        "value": "Alice (costume design for Alice-in-Wonderland, 1915)"
+      },
+      {
+        "label": "Metadata Usage",
+        "value": "CC0"
+      },
+      {
+        "label": "Guid",
+        "value": "http://n2t.net/ark:/65665/vk7554cbfd5-b6bf-4dd8-b870-aea6ab3b55d7"
+      },
+      {
+        "label": "Data Source",
+        "value": "Smithsonian American Art Museum"
+      },
+      {
+        "label": "Artist",
+        "value": "William Penhallow Henderson, born Medford, MA 1877-died Tesuque, NM 1943"
+      },
+      {
+        "label": "Medium",
+        "value": "watercolor and pencil on paperboard"
+      },
+      {
+        "label": "Dimensions",
+        "value": "sheet and image: 10 1/4 × 6 in. (26.0 × 15.2 cm)"
+      },
+      {
+        "label": "Credit Line",
+        "value": "Smithsonian American Art Museum, Gift of Alice H. Rossin"
+      },
+      {
+        "label": "Object number",
+        "value": "1982.1.1"
+      },
+      {
+        "label": "Date",
+        "value": "1915"
+      },
+      {
+        "label": "Type",
+        "value": "Painting"
+      },
+      {
+        "label": "Topic",
+        "value": "Literature\\Carroll\\Alice's Adventures in Wonderland"
+      }
+    ],
+    "license": "https://www.si.edu/termsofuse",
+    "attribution": "Smithsonian Institution",
+    "sequences": [
+      {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "https://ids.si.edu/ids/manifest/SAAM-1982.1.1_1",
+        "@type": "sc:Sequence",
+        "canvases": [
+          {
+            "@id": "https://ids.si.edu/ids/iiif/canvas-SAAM-1982.1.1_1",
+            "@type": "sc:Canvas",
+            "label": "image SAAM-1982.1.1_1",
+            "height": 3000,
+            "width": 1687,
+            "images": [
+              {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "https://ids.si.edu/ids/iiif/SAAM-1982.1.1_1",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                  "@id": "https://ids.si.edu/ids/iiif/SAAM-1982.1.1_1/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "height": 3000,
+                  "width": 1687,
+                  "format": "image/jpeg",
+                  "service": {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://ids.si.edu/ids/iiif/SAAM-1982.1.1_1",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                },
+                "on": "https://ids.si.edu/ids/iiif/SAAM-1982.1.1_1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
