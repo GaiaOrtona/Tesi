@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:frbr="http://iflastandards.info/ns/fr/frbr/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:schema="http://schema.org/"
+         xmlns:viaf="https://viaf.org/viaf/"
+         xmlns:wd="http://www.wikidata.org/entity/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:mp="http://myproject.org/entity/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <mp:DigitalEdition rdf:about="http://myproject.org/entity/DigitalEdition">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <rdfs:label>Artview</rdfs:label>
+    <schema:hasPart rdf:resource="http://myproject.org/entity/Interview15"/>
+    <schema:hasPart rdf:resource="http://myproject.org/entity/Interview25"/>
+    <schema:hasPart rdf:resource="http://myproject.org/entity/Interview26"/>
+  </mp:DigitalEdition>
+
+  <bibo:Interview rdf:about="http://myproject.org/entity/Interview15">
+    <rdfs:label>Intervista a Gae Aulenti</rdfs:label>
+    <bibo:interviewee rdf:resource="http://www.wikidata.org/entity/Q8867"/>
+    <bibo:interviewer rdf:resource="http://www.wikidata.org/entity/Q286600"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeChildhood"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemePolitics"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeReligion"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeSocioEconomicStatus"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeLove"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q255"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q1339"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q1511"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q9358"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q855"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q3435337"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q92640"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q183565"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q2044"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q490"/>
+  </bibo:Interview>
+
+  <bibo:Interview rdf:about="http://myproject.org/entity/Interview25">
+    <rdfs:label>Intervista a Maria Callas</rdfs:label>
+    <bibo:interviewee rdf:resource="http://www.wikidata.org/entity/Q128297"/>
+    <bibo:interviewer rdf:resource="http://www.wikidata.org/entity/Q286600"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeChildhood"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemePolitics"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeReligion"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeSocioEconomicStatus"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeLove"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q13003"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q25120"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q2454065"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q50391147"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q55068861"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q221806"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q320363"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q186162"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q320353"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q60"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q41"/>
+  </bibo:Interview>
+
+  <bibo:Interview rdf:about="http://myproject.org/entity/Interview26">
+    <rdfs:label>Intervista a Pier Paolo Pasolini</rdfs:label>
+    <bibo:interviewee rdf:resource="http://www.wikidata.org/entity/Q25120"/>
+    <bibo:interviewer rdf:resource="http://www.wikidata.org/entity/Q286600"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeChildhood"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemePolitics"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeReligion"/>
+    <schema:about rdf:resource="http://myproject.org/entity/ThemeSocioEconomicStatus"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q913"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q309786"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q23559"/>
+    <schema:mentions rdf:resource="http://www.wikidata.org/entity/Q130283"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q1891"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q6231"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q53157"/>
+    <schema:contentLocation rdf:resource="http://www.wikidata.org/entity/Q53190"/>
+  </bibo:Interview>
+
+  <skos:Concept rdf:about="http://myproject.org/entity/ThemeLove">
+    <rdfs:label>Love</rdfs:label>
+    <schema:description>Extracts of the text that relate to the romantic/sexual theme.</schema:description>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://myproject.org/entity/ThemeChildhood">
+    <rdfs:label>Childhood</rdfs:label>
+    <schema:description>Extracts of the text that relate to the childhood theme.</schema:description>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://myproject.org/entity/ThemePolitics">
+    <rdfs:label>Politics</rdfs:label>
+    <schema:description>Extracts of the text that relate to the political theme.</schema:description>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://myproject.org/entity/ThemeReligion">
+    <rdfs:label>Religion</rdfs:label>
+    <schema:description>Extracts of the text that relate to the religious theme.</schema:description>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://myproject.org/entity/ThemeSocioEconomicStatus">
+    <rdfs:label>Socio-economic status</rdfs:label>
+    <schema:description>Extracts of the text that relate to the socio-economical theme.</schema:description>
+  </skos:Concept>
+
+  
+  <foaf:Person rdf:about="wd:Q286600">
+    <rdfs:label>Dacia Maraini</rdfs:label>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-11-13</schema:birthDate>
+    <schema:birthPlace>Fiesole</schema:birthPlace>
+    <schema:gender>female</schema:gender>
+    <schema:jobTitle>film director</schema:jobTitle>
+    <schema:jobTitle>playwright</schema:jobTitle>
+    <schema:jobTitle>poet</schema:jobTitle>
+    <schema:jobTitle>screenwriter</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>poetry</schema:knowsAbout>
+    <owl:sameAs rdf:resource="viaf:110300951"/>
+    <foaf:familyName>Maraini</foaf:familyName>
+    <foaf:givenName>Dacia</foaf:givenName>
+    <foaf:name>Dacia Maraini</foaf:name>
+  </foaf:Person>
+
+  
+  <foaf:Person rdf:about="wd:Q8867">
+    <rdfs:label>Gae Aulenti</rdfs:label>
+    <schema:birthDate rdf:datatype="xsd:date">1927-12-04</schema:birthDate>
+    <schema:birthPlace>Palazzolo dello Stella</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">2012-10-31</schema:deathDate>
+    <schema:deathPlace>Milan</schema:deathPlace>
+    <schema:gender>female</schema:gender>
+    <schema:jobTitle>architect</schema:jobTitle>
+    <schema:jobTitle>costume designer</schema:jobTitle>
+    <schema:jobTitle>designer</schema:jobTitle>
+    <schema:jobTitle>furniture designer</schema:jobTitle>
+    <schema:jobTitle>interior designer</schema:jobTitle>
+    <schema:jobTitle>scenographer</schema:jobTitle>
+    <schema:knowsAbout>architecture</schema:knowsAbout>
+    <schema:knowsAbout>costume design</schema:knowsAbout>
+    <schema:knowsAbout>design</schema:knowsAbout>
+    <schema:knowsAbout>scenography</schema:knowsAbout>
+    <schema:movement>Metodo Castiglioni</schema:movement>
+    <schema:workFeatured>Musée d'Orsay</schema:workFeatured>
+    <schema:workFeatured>Pipistrello</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:79173999"/>
+    <foaf:familyName>Aulenti</foaf:familyName>
+    <foaf:givenName>Gaetana</foaf:givenName>
+    <foaf:name>Gae Aulenti</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q128297">
+    <rdfs:label>Maria Callas</rdfs:label>
+    <schema:birthDate rdf:datatype="xsd:date">1923-12-02</schema:birthDate>
+    <schema:birthPlace>New York City</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1977-09-16</schema:deathDate>
+    <schema:deathPlace>Paris</schema:deathPlace>
+    <schema:gender>female</schema:gender>
+    <schema:jobTitle>actor</schema:jobTitle>
+    <schema:jobTitle>opera singer</schema:jobTitle>
+    <schema:jobTitle>singer</schema:jobTitle>
+    <schema:knowsAbout>singing</schema:knowsAbout>
+    <owl:sameAs rdf:resource="viaf:44484550"/>
+    <foaf:familyName>Callas</foaf:familyName>
+    <foaf:givenName>Maria</foaf:givenName>
+    <foaf:name>Maria Callas</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q25120">
+    <rdfs:label>Pier Paolo Pasolini</rdfs:label>
+    <schema:birthDate rdf:datatype="xsd:date">1922-03-05</schema:birthDate>
+    <schema:birthPlace>Bologna</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1975-11-02</schema:deathDate>
+    <schema:deathPlace>Lido di Ostia</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>activist</schema:jobTitle>
+    <schema:jobTitle>actor</schema:jobTitle>
+    <schema:jobTitle>director</schema:jobTitle>
+    <schema:jobTitle>film actor</schema:jobTitle>
+    <schema:jobTitle>film critic</schema:jobTitle>
+    <schema:jobTitle>film director</schema:jobTitle>
+    <schema:jobTitle>journalist</schema:jobTitle>
+    <schema:jobTitle>novelist</schema:jobTitle>
+    <schema:jobTitle>playwright</schema:jobTitle>
+    <schema:jobTitle>poet</schema:jobTitle>
+    <schema:jobTitle>prose writer</schema:jobTitle>
+    <schema:jobTitle>screenwriter</schema:jobTitle>
+    <schema:jobTitle>translator</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>acting</schema:knowsAbout>
+    <schema:knowsAbout>belletristic literature</schema:knowsAbout>
+    <schema:knowsAbout>drama</schema:knowsAbout>
+    <schema:knowsAbout>film direction</schema:knowsAbout>
+    <schema:knowsAbout>journalism</schema:knowsAbout>
+    <schema:knowsAbout>literary activity</schema:knowsAbout>
+    <schema:knowsAbout>poetry</schema:knowsAbout>
+    <schema:workFeatured>Ragazzi di vita</schema:workFeatured>
+    <schema:workFeatured>Salò, or the 120 Days of Sodom</schema:workFeatured>
+    <schema:workFeatured>Teorema</schema:workFeatured>
+    <schema:workFeatured>The Gospel According to St. Matthew</schema:workFeatured>
+    <schema:workFeatured>The Hawks and the Sparrows</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:54152375"/>
+    <foaf:familyName>Pasolini</foaf:familyName>
+    <foaf:givenName>Pier Paolo</foaf:givenName>
+    <foaf:name>Pier Paolo Pasolini</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q23559">
+    <schema:birthDate rdf:datatype="xsd:date">1883-07-29</schema:birthDate>
+    <schema:birthPlace>Predappio</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1945-04-28</schema:deathDate>
+    <schema:deathPlace>Giulino</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>fascist</schema:jobTitle>
+    <schema:jobTitle>journalist</schema:jobTitle>
+    <schema:jobTitle>politician</schema:jobTitle>
+    <schema:jobTitle>teacher</schema:jobTitle>
+    <schema:movement>Italian nationalism</schema:movement>
+    <schema:movement>fascism</schema:movement>
+    <owl:sameAs rdf:resource="viaf:90162262"/>
+    <foaf:familyName>Mussolini</foaf:familyName>
+    <foaf:givenName>Benito</foaf:givenName>
+    <foaf:name>Benito Mussolini</foaf:name>
+  </foaf:Person>
+
+  
+
+  
+
+  
+
+  <foaf:Person rdf:about="wd:Q913">
+    <schema:birthDate>-0468-01-01</schema:birthDate>
+    <schema:birthPlace>Alopeke</schema:birthPlace>
+    <schema:birthPlace>Athens</schema:birthPlace>
+    <schema:deathDate>-0398-02-10</schema:deathDate>
+    <schema:deathPlace>Athens</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>ethicist</schema:jobTitle>
+    <schema:jobTitle>philosopher</schema:jobTitle>
+    <schema:jobTitle>teacher</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>epistemology</schema:knowsAbout>
+    <schema:knowsAbout>ethics</schema:knowsAbout>
+    <schema:knowsAbout>philosophy</schema:knowsAbout>
+    <owl:sameAs rdf:resource="viaf:104718395"/>
+    <owl:sameAs rdf:resource="viaf:111650452"/>
+    <owl:sameAs rdf:resource="viaf:153147905262479092118"/>
+    <owl:sameAs rdf:resource="viaf:207796077"/>
+    <owl:sameAs rdf:resource="viaf:260147905253679092124"/>
+    <owl:sameAs rdf:resource="viaf:283620190"/>
+    <owl:sameAs rdf:resource="viaf:312147905271179092140"/>
+    <owl:sameAs rdf:resource="viaf:3160791822702860002"/>
+    <owl:sameAs rdf:resource="viaf:330159474047327660519"/>
+    <owl:sameAs rdf:resource="viaf:3342153063168319320003"/>
+    <owl:sameAs rdf:resource="viaf:3674153063110919320005"/>
+    <owl:sameAs rdf:resource="viaf:410152138657010982092"/>
+    <owl:sameAs rdf:resource="viaf:553158790509838850800"/>
+    <owl:sameAs rdf:resource="viaf:775144647714039525785"/>
+    <owl:sameAs rdf:resource="viaf:781144647701334922457"/>
+    <owl:sameAs rdf:resource="viaf:79151776831518012952"/>
+    <owl:sameAs rdf:resource="viaf:84043798"/>
+    <owl:sameAs rdf:resource="viaf:88039167"/>
+    <foaf:givenName>Sokratis</foaf:givenName>
+    <foaf:name>Socrates</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q309786">
+    <schema:birthDate rdf:datatype="xsd:date">1862-08-21</schema:birthDate>
+    <schema:birthPlace>Verona</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1911-04-25</schema:deathDate>
+    <schema:deathPlace>Turin</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>children's writer</schema:jobTitle>
+    <schema:jobTitle>journalist</schema:jobTitle>
+    <schema:jobTitle>novelist</schema:jobTitle>
+    <schema:jobTitle>prose writer</schema:jobTitle>
+    <schema:jobTitle>science fiction writer</schema:jobTitle>
+    <schema:jobTitle>screenwriter</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>adventure novel</schema:knowsAbout>
+    <schema:workFeatured>An Empire Crumbles</schema:workFeatured>
+    <schema:workFeatured>Carthage in Flames</schema:workFeatured>
+    <schema:workFeatured>Children of the Air</schema:workFeatured>
+    <schema:workFeatured>I predoni del Sahara</schema:workFeatured>
+    <schema:workFeatured>Il tesoro del presidente del Paraguay</schema:workFeatured>
+    <schema:workFeatured>La scotennatrice</schema:workFeatured>
+    <schema:workFeatured>Le Aquile della steppa</schema:workFeatured>
+    <schema:workFeatured>Quest for a Throne</schema:workFeatured>
+    <schema:workFeatured>Return to Mompracem</schema:workFeatured>
+    <schema:workFeatured>Salgari - I solitari dell'Oceano</schema:workFeatured>
+    <schema:workFeatured>Sandokan to the Rescue</schema:workFeatured>
+    <schema:workFeatured>Son of the Red Corsair</schema:workFeatured>
+    <schema:workFeatured>The Black Corsair</schema:workFeatured>
+    <schema:workFeatured>The Brahman</schema:workFeatured>
+    <schema:workFeatured>The King of the Sea</schema:workFeatured>
+    <schema:workFeatured>The Last Pirates</schema:workFeatured>
+    <schema:workFeatured>The Mountain of Light</schema:workFeatured>
+    <schema:workFeatured>The Mysterious Continent</schema:workFeatured>
+    <schema:workFeatured>The Mystery of the Black Jungle</schema:workFeatured>
+    <schema:workFeatured>The Pirates of Malaysia</schema:workFeatured>
+    <schema:workFeatured>The Queen of the Caribbean</schema:workFeatured>
+    <schema:workFeatured>The Tigers of Mompracem</schema:workFeatured>
+    <schema:workFeatured>The Two Tigers</schema:workFeatured>
+    <schema:workFeatured>Un dramma nell'Oceano Pacifico</schema:workFeatured>
+    <schema:workFeatured>Yanez' Revenge</schema:workFeatured>
+    <schema:workFeatured>Yolanda, the Black Corsair's Daughter</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:29540305"/>
+    <foaf:familyName>Salgari</foaf:familyName>
+    <foaf:givenName>Carlo</foaf:givenName>
+    <foaf:givenName>Emilio</foaf:givenName>
+    <foaf:givenName>Giuseppe</foaf:givenName>
+    <foaf:givenName>Maria</foaf:givenName>
+    <foaf:name>Emilio Salgari</foaf:name>
+  </foaf:Person>
+
+
+
+  <foaf:Person rdf:about="wd:Q13003">
+    <schema:birthDate rdf:datatype="xsd:date">1867-03-25</schema:birthDate>
+    <schema:birthPlace>Parma</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1957-01-16</schema:deathDate>
+    <schema:deathPlace>Manhattan</schema:deathPlace>
+    <schema:deathPlace>Riverdale</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>composer</schema:jobTitle>
+    <schema:jobTitle>conductor</schema:jobTitle>
+    <schema:jobTitle>music director</schema:jobTitle>
+    <schema:jobTitle>musician</schema:jobTitle>
+    <schema:jobTitle>politician</schema:jobTitle>
+    <owl:sameAs rdf:resource="viaf:19867298"/>
+    <foaf:familyName>Toscanini</foaf:familyName>
+    <foaf:givenName>Arturo</foaf:givenName>
+    <foaf:name>Arturo Toscanini</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q2454065">
+    <schema:workExample>Lady Macbeth</schema:workExample>
+    <schema:isPartOf>Macbeth</schema:isPartOf>
+    <rdfs:label>Lady Macbeth</rdfs:label>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q55068861">
+    <schema:isPartOf>Norma</schema:isPartOf>
+    <rdfs:label>Norma</rdfs:label>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q50391147">
+    <schema:isPartOf>La traviata</schema:isPartOf>
+    <rdfs:label>Violetta Valéry</rdfs:label>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q255">
+    <schema:birthDate rdf:datatype="xsd:date">1770-12-16</schema:birthDate>
+    <schema:birthPlace>Bonn</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1827-03-26</schema:deathDate>
+    <schema:deathPlace>Vienna</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>composer</schema:jobTitle>
+    <schema:knowsAbout>chamber music</schema:knowsAbout>
+    <schema:knowsAbout>classical music</schema:knowsAbout>
+    <schema:knowsAbout>music</schema:knowsAbout>
+    <schema:knowsAbout>opera</schema:knowsAbout>
+    <schema:knowsAbout>piano performance</schema:knowsAbout>
+    <schema:knowsAbout>string quartet</schema:knowsAbout>
+    <schema:knowsAbout>string trio</schema:knowsAbout>
+    <schema:knowsAbout>symphony</schema:knowsAbout>
+    <schema:knowsAbout>traditional folk song</schema:knowsAbout>
+    <schema:movement>Classical period</schema:movement>
+    <schema:movement>Romantic music</schema:movement>
+    <schema:workFeatured>Fidelio</schema:workFeatured>
+    <schema:workFeatured>Für Elise</schema:workFeatured>
+    <schema:workFeatured>Missa Solemnis</schema:workFeatured>
+    <schema:workFeatured>Piano Sonata No. 14</schema:workFeatured>
+    <schema:workFeatured>Piano Sonata No. 21</schema:workFeatured>
+    <schema:workFeatured>Piano Sonata No. 23</schema:workFeatured>
+    <schema:workFeatured>Piano Sonata No. 8</schema:workFeatured>
+    <schema:workFeatured>Symphony No. 3</schema:workFeatured>
+    <schema:workFeatured>Symphony No. 5</schema:workFeatured>
+    <schema:workFeatured>Symphony No. 6</schema:workFeatured>
+    <schema:workFeatured>Symphony No. 9</schema:workFeatured>
+    <schema:workFeatured>Violin Sonata No. 9</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:32182557"/>
+    <foaf:familyName>van Beethoven</foaf:familyName>
+    <foaf:givenName>Ludwig</foaf:givenName>
+    <foaf:name>Ludwig van Beethoven</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q1339">
+    <schema:birthDate rdf:datatype="xsd:date">1685-03-31</schema:birthDate>
+    <schema:birthPlace>Eisenach</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1750-07-28</schema:deathDate>
+    <schema:deathPlace>Leipzig</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>choir director</schema:jobTitle>
+    <schema:jobTitle>composer</schema:jobTitle>
+    <schema:jobTitle>concertmaster</schema:jobTitle>
+    <schema:jobTitle>conductor</schema:jobTitle>
+    <schema:jobTitle>harpsichordist</schema:jobTitle>
+    <schema:jobTitle>music educator</schema:jobTitle>
+    <schema:jobTitle>musicologist</schema:jobTitle>
+    <schema:jobTitle>organist</schema:jobTitle>
+    <schema:jobTitle>school teacher</schema:jobTitle>
+    <schema:jobTitle>violinist</schema:jobTitle>
+    <schema:jobTitle>virtuoso</schema:jobTitle>
+    <schema:movement>Baroque music</schema:movement>
+    <schema:workFeatured>Brandenburg concertos</schema:workFeatured>
+    <schema:workFeatured>Cello Suites</schema:workFeatured>
+    <schema:workFeatured>Christmas Oratorio</schema:workFeatured>
+    <schema:workFeatured>Die Kunst der Fuge</schema:workFeatured>
+    <schema:workFeatured>English Suites</schema:workFeatured>
+    <schema:workFeatured>Geschwinde, ihr wirbelnden Winde</schema:workFeatured>
+    <schema:workFeatured>Goldberg Variations</schema:workFeatured>
+    <schema:workFeatured>Gottes Zeit ist die allerbeste Zeit, BWV 106</schema:workFeatured>
+    <schema:workFeatured>Harpsichord concertos</schema:workFeatured>
+    <schema:workFeatured>Herz und Mund und Tat und Leben, BWV 147</schema:workFeatured>
+    <schema:workFeatured>Inventions and Sinfonias</schema:workFeatured>
+    <schema:workFeatured>Italian Concerto</schema:workFeatured>
+    <schema:workFeatured>Jesu, meine Freude (BWV 227)</schema:workFeatured>
+    <schema:workFeatured>Klavierbüchlein für Wilhelm Friedemann Bach</schema:workFeatured>
+    <schema:workFeatured>Mass in B minor</schema:workFeatured>
+    <schema:workFeatured>Notebook for Anna Magdalena Bach</schema:workFeatured>
+    <schema:workFeatured>Orchestral Suites</schema:workFeatured>
+    <schema:workFeatured>Organ Sonatas</schema:workFeatured>
+    <schema:workFeatured>Sonatas and partitas for solo violin</schema:workFeatured>
+    <schema:workFeatured>St John Passion</schema:workFeatured>
+    <schema:workFeatured>St Matthew Passion</schema:workFeatured>
+    <schema:workFeatured>The Musical Offering</schema:workFeatured>
+    <schema:workFeatured>The Well-Tempered Clavier</schema:workFeatured>
+    <schema:workFeatured>Toccata and Fugue in D minor, BWV 565</schema:workFeatured>
+    <schema:workFeatured>Violin Concerto in E major</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:12304462"/>
+    <foaf:familyName>Bach</foaf:familyName>
+    <foaf:givenName>Johann</foaf:givenName>
+    <foaf:givenName>Sebastian</foaf:givenName>
+    <foaf:name>Johann Sebastian Bach</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q1511">
+    <schema:birthDate rdf:datatype="xsd:date">1813-05-22</schema:birthDate>
+    <schema:birthPlace>Leipzig</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1883-02-13</schema:deathDate>
+    <schema:deathPlace>Venice</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>autobiographer</schema:jobTitle>
+    <schema:jobTitle>composer</schema:jobTitle>
+    <schema:jobTitle>conductor</schema:jobTitle>
+    <schema:jobTitle>diarist</schema:jobTitle>
+    <schema:jobTitle>essayist</schema:jobTitle>
+    <schema:jobTitle>librettist</schema:jobTitle>
+    <schema:jobTitle>music critic</schema:jobTitle>
+    <schema:jobTitle>pianist</schema:jobTitle>
+    <schema:jobTitle>poet</schema:jobTitle>
+    <schema:jobTitle>theatrical director</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>Musikdrama</schema:knowsAbout>
+    <schema:knowsAbout>opera</schema:knowsAbout>
+    <schema:workFeatured>Das Rheingold</schema:workFeatured>
+    <schema:workFeatured>Der Ring des Nibelungen</schema:workFeatured>
+    <schema:workFeatured>Lohengrin</schema:workFeatured>
+    <schema:workFeatured>Tannhäuser</schema:workFeatured>
+    <schema:workFeatured>The Flying Dutchman</schema:workFeatured>
+    <schema:workFeatured>Tristan und Isolde</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:29732107"/>
+    <foaf:familyName>Wagner</foaf:familyName>
+    <foaf:givenName>Richard</foaf:givenName>
+    <foaf:name>Richard Wagner</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q9358">
+    <schema:birthDate rdf:datatype="xsd:date">1844-10-15</schema:birthDate>
+    <schema:birthPlace>Röcken</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1900-08-25</schema:deathDate>
+    <schema:deathPlace>Weimar</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>classical philologist</schema:jobTitle>
+    <schema:jobTitle>classical scholar</schema:jobTitle>
+    <schema:jobTitle>composer</schema:jobTitle>
+    <schema:jobTitle>music critic</schema:jobTitle>
+    <schema:jobTitle>pedagogue</schema:jobTitle>
+    <schema:jobTitle>philosopher</schema:jobTitle>
+    <schema:jobTitle>playwright</schema:jobTitle>
+    <schema:jobTitle>poet</schema:jobTitle>
+    <schema:jobTitle>writer</schema:jobTitle>
+    <schema:knowsAbout>aesthetics</schema:knowsAbout>
+    <schema:knowsAbout>culture</schema:knowsAbout>
+    <schema:knowsAbout>ethics</schema:knowsAbout>
+    <schema:knowsAbout>nihilism</schema:knowsAbout>
+    <schema:knowsAbout>ontology</schema:knowsAbout>
+    <schema:knowsAbout>philology</schema:knowsAbout>
+    <schema:knowsAbout>philosophy</schema:knowsAbout>
+    <schema:knowsAbout>philosophy of history</schema:knowsAbout>
+    <schema:knowsAbout>poetry</schema:knowsAbout>
+    <schema:knowsAbout>politics</schema:knowsAbout>
+    <schema:knowsAbout>psychology</schema:knowsAbout>
+    <schema:knowsAbout>religion</schema:knowsAbout>
+    <schema:movement>Lebensphilosophie</schema:movement>
+    <schema:workFeatured>Thus Spoke Zarathustra</schema:workFeatured>
+    <owl:sameAs rdf:resource="viaf:89798474"/>
+    <foaf:familyName>Nietzsche</foaf:familyName>
+    <foaf:givenName>Friedrich</foaf:givenName>
+    <foaf:givenName>Wilhelm</foaf:givenName>
+    <foaf:name>Friedrich Nietzsche</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="wd:Q855">
+    <schema:birthDate rdf:datatype="xsd:date">1878-12-18</schema:birthDate>
+    <schema:birthPlace>Gori</schema:birthPlace>
+    <schema:deathDate rdf:datatype="xsd:date">1953-03-05</schema:deathDate>
+    <schema:deathPlace>Kuntsevo Dacha</schema:deathPlace>
+    <schema:gender>male</schema:gender>
+    <schema:jobTitle>linguist</schema:jobTitle>
+    <schema:jobTitle>opinion journalist</schema:jobTitle>
+    <schema:jobTitle>politician</schema:jobTitle>
+    <schema:jobTitle>revolutionary</schema:jobTitle>
+    <schema:jobTitle>statesperson</schema:jobTitle>
+    <schema:knowsAbout>opinion journalist</schema:knowsAbout>
+    <schema:knowsAbout>politician</schema:knowsAbout>
+    <schema:knowsAbout>revolutionary</schema:knowsAbout>
+    <schema:movement>Marxism–Leninism</schema:movement>
+    <owl:sameAs rdf:resource="viaf:101787139"/>
+    <foaf:familyName>Stalin</foaf:familyName>
+    <foaf:givenName>Ioseb</foaf:givenName>
+    <foaf:name>Joseph Stalin</foaf:name>
+  </foaf:Person>
+
+  <frbr:Expression rdf:about="wd:Q221806">
+    <schema:composer>Pietro Mascagni</schema:composer>
+    <schema:creativeWorkStatus>opera</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">2020-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1850-01-01</schema:datePublished>
+    <schema:genre>opera</schema:genre>
+    <schema:genre>verismo</schema:genre>
+    <rdfs:label>Cavalleria rusticana</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q320363">
+    <schema:composer>Giuseppe Verdi</schema:composer>
+    <schema:creativeWorkStatus>opera</schema:creativeWorkStatus>
+    <schema:datePublished rdf:datatype="xsd:date">1850-01-01</schema:datePublished>
+    <schema:genre>opera</schema:genre>
+    <schema:genre>opera seria</schema:genre>
+    <schema:genre>tragedy</schema:genre>
+    <rdfs:label>Macbeth</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q186162">
+    <schema:composer>Giuseppe Verdi</schema:composer>
+    <schema:creativeWorkStatus>opera</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">1852-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1850-01-01</schema:datePublished>
+    <schema:genre>opera</schema:genre>
+    <schema:genre>tragedy</schema:genre>
+    <rdfs:label>La traviata</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q320353">
+    <schema:composer>Vincenzo Bellini</schema:composer>
+    <schema:creativeWorkStatus>opera</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">1831-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1850-01-01</schema:datePublished>
+    <schema:genre>opera</schema:genre>
+    <schema:genre>opera seria</schema:genre>
+    <schema:genre>tragédie en musique</schema:genre>
+    <rdfs:label>Norma</rdfs:label>
+  </frbr:Expression>
+
+
+  <frbr:Expression rdf:about="wd:Q130283">
+    <schema:author>William Shakespeare</schema:author>
+    <schema:creativeWorkStatus>play</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">1606-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1623-01-01</schema:datePublished>
+    <schema:depicts>Fair is foul, and foul is fair</schema:depicts>
+    <schema:depicts>double, double, toil and trouble</schema:depicts>
+    <schema:genre>tragedy</schema:genre>
+    <rdfs:label>Macbeth</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q3435337">
+    <schema:about>adolescence</schema:about>
+    <schema:about>childhood</schema:about>
+    <schema:about>children's game</schema:about>
+    <schema:author>J. M. Barrie</schema:author>
+    <schema:creativeWorkStatus>novel</schema:creativeWorkStatus>
+    <schema:datePublished rdf:datatype="xsd:date">1911-01-01</schema:datePublished>
+    <schema:depicts>gender role</schema:depicts>
+    <schema:genre>fantasy</schema:genre>
+    <rdfs:label>Peter Pan</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q92640">
+    <schema:about>dream</schema:about>
+    <schema:author>Lewis Carroll</schema:author>
+    <schema:creativeWorkStatus>novel</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">1862-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1865-01-01</schema:datePublished>
+    <schema:genre>children's novel</schema:genre>
+    <schema:genre>fairy tale</schema:genre>
+    <schema:genre>literary nonsense</schema:genre>
+    <rdfs:label>Alice's Adventures in Wonderland</rdfs:label>
+  </frbr:Expression>
+
+  <frbr:Expression rdf:about="wd:Q183565">
+    <schema:about>sea</schema:about>
+    <schema:author>Jules Verne</schema:author>
+    <schema:creativeWorkStatus>novel</schema:creativeWorkStatus>
+    <schema:dateCreated rdf:datatype="xsd:date">1869-01-01</schema:dateCreated>
+    <schema:datePublished rdf:datatype="xsd:date">1869-03-20</schema:datePublished>
+    <schema:genre>adventure fiction</schema:genre>
+    <schema:genre>merveilleux scientifique</schema:genre>
+    <schema:genre>science fiction</schema:genre>
+    <schema:genre>scientific romance</schema:genre>
+    <schema:genre>sea adventure novel</schema:genre>
+    <schema:genre>travel novel</schema:genre>
+    <rdfs:label>Twenty Thousand Leagues Under the Sea</rdfs:label>
+  </frbr:Expression>
+
+
+
+  <schema:Place rdf:about="wd:Q1891">
+    <schema:address>Bologna</schema:address>
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(11.342777777 44.493888888)</schema:geo>
+    <rdfs:label>Bologna</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:144875967"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q6231">
+    <schema:address>Cremona</schema:address>
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(10.024722222 45.133333333)</schema:geo>
+    <rdfs:label>Cremona</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:147747283"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q53190">
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(12.50274 45.95412)</schema:geo>
+    <rdfs:label>Sacile</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:154238857"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q53157">
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(12.85 45.95)</schema:geo>
+    <rdfs:label>Casarsa della Delizia</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:234312709"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q60">
+    <schema:address>New York</schema:address>
+    <schema:containedInPlace>United States of America</schema:containedInPlace>
+    <schema:geo>Point(-74.006111111 40.712777777)</schema:geo>
+    <rdfs:label>New York City</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:266415900"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q41">
+    <schema:address>Republiken Grekland</schema:address>
+    <schema:address>République hellénique</schema:address>
+    <schema:address>Ελληνική Δημοκρατία</schema:address>
+    <schema:containedInPlace>Greece</schema:containedInPlace>
+    <schema:geo>Point(23.0 38.5)</schema:geo>
+    <rdfs:label>Greece</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:131265011"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q2044">
+    <schema:address>Firenze</schema:address>
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(11.254166666 43.771388888)</schema:geo>
+    <rdfs:label>Florence</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:152981965"/>
+  </schema:Place>
+
+  <schema:Place rdf:about="wd:Q490">
+    <schema:address>Milano</schema:address>
+    <schema:containedInPlace>Italy</schema:containedInPlace>
+    <schema:geo>Point(9.19 45.466944444)</schema:geo>
+    <rdfs:label>Milan</rdfs:label>
+    <owl:sameAs rdf:resource="viaf:157818740"/>
+  </schema:Place>
+
+
+  </rdf:RDF>
