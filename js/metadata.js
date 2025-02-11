@@ -85,7 +85,7 @@ function extractMetadata(entity) {
 function formatMetadata(metadata) {
    if (!metadata) return '';
    
-   let html = `<h3>Metadati</h3>`;
+   let html = `<h3>Metadata</h3>`;
    for (const [key, value] of Object.entries(metadata)) {
        const formattedValue = Array.isArray(value) ? value.join(', ') : value;
        html += `<p><strong>${key}:</strong> ${formattedValue}</p>`;
