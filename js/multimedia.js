@@ -25,12 +25,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 showMultimedia({
                     type: multimediaId.endsWith('.manifest.json') ? 'iiif' : 
                            multimediaId.endsWith('.mp3') ? 'audio' : 'image',
-                    src: `./materiali_multimediali/${multimediaId}`
+                    src: `./materiali_multimediali/${multimediaId}`,
+                    text: tag.textContent,
                 });
             } else {
                 showMultimedia({
                     type: 'map',
-                    src: await getCoordinates(tag.getAttribute('data-ref'))
+                    src: await getCoordinates(tag.getAttribute('data-ref')),
+                    text: tag.textContent,
                 });
             }
         });
@@ -115,9 +117,12 @@ function showMultimedia(media) {
     clearViewer();
     document.getElementById('MultimediaModal').style.display = 'block';
     const viewer = document.getElementById('media-viewer');
+    const titleHtml = `<h4 style="margin: 0 0 15px 0; text-align: center;">${media.text}</h4>`;
+    const sourceHtml = `<p class="copyright" style="margin: 15px 0 0 0; text-align: center;">Source: ${media.src}</p>`;
     
     if (media.type === 'iiif') {
         viewer.innerHTML = '<div class="loading">Loading...</div>';
+
         // Small delay to ensure DOM is ready
         setTimeout(() => {
             miradorInstance = Mirador.viewer({
@@ -141,13 +146,20 @@ function showMultimedia(media) {
             });
         }, 100);
     } else if (media.type === 'image') {
-        viewer.innerHTML = `<img src="${media.src}">`;
+        viewer.innerHTML = `
+            ${titleHtml}
+            <img src="${media.src}">
+        `;
     } else if (media.type === 'audio') {
-        viewer.innerHTML = `<audio controls src="${media.src}">`;
+        viewer.innerHTML = `
+            ${titleHtml}
+            <audio controls src="${media.src}"></audio>
+        `;
     } else if (media.type === 'map') {
-        // Create a div for the map with a fixed height
-        viewer.innerHTML = '<div id="map" style="height: 100%;"></div>';
-        
+        viewer.innerHTML = `
+            ${titleHtml}
+            <div id="map" style="height: 100%;"></div>
+        `;       
         // Initialize the map
         const map = L.map('map').setView([media.src.latitude, media.src.longitude], 13);
         
