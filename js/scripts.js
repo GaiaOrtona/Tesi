@@ -44,7 +44,6 @@ function initializeSidebar() {
     }
 
     document.querySelectorAll('span[data-ref]').forEach(span => {
-        console.log(span);
         const text = span.textContent;
         
         if (!span.getAttribute('data-multimedia')) {
@@ -89,7 +88,6 @@ function initializeSidebar() {
         { title: 'Manifests', items: entities.manifests },
     ];
 
-    console.log(sections);
 
     sections.forEach(section => {
         if (section.items.length > 0) {
