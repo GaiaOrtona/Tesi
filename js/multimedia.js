@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 showMultimedia({
                     type: multimediaId.endsWith('.manifest.json') ? 'iiif' : 
                            multimediaId.endsWith('.mp3') ? 'audio' : 'image',
-                    src: `./materiali_multimediali/${multimediaId}`,
+                    src: `../materiali_multimediali/${multimediaId}`,
                     text: tag.textContent,
                 });
             } else {
